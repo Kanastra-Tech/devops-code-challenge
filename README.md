@@ -1,4 +1,18 @@
 # Code Challenge DevOps Kanastra
+
+Desafio de código para DevOps
+
+## Provisionamento
+
+Você precisa nos mostrar uma infraestrutura provisionada usando Infra-as-code (terraform, pulumi, ansible, etc),
+que deve conter:
+* Configure um cluster k8s em núvem (EKS, AKS ou GKE)
+* Configure a rede e suas subnets.
+* Configure a segurança usando o princípio de privilégio mínimo.
+* Use uma IAM role para dar as permissões no cluster.
+  Use sempre as melhores práticas para provisionar os recursos da núvem que escolher.
+
+## CI/CD
 Os requisitos são os seguintes:
 * Escolha uma ferramenta de CI/CD apropriada.
 * Configure um pipeline de build de contêiner docker da aplicação node.
